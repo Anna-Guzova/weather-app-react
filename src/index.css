@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App::before {
+  content: "";
+  background: url("./images/back.jpg") no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.inp-field {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.inp-field input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 20px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(50, 120, 155);
+}
+
+.city {
+  font-size: 40px;
+}
+
+.temp {
+  font-size: 30px;
+}
+
+.desc p {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.footer {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fells p,
+.humidity p,
+.wind p {
+  text-align: center;
+}
